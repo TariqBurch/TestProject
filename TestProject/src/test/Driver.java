@@ -12,7 +12,7 @@ public class Driver {
 		Calculate cal = new Calculate();
 		String op = "";
 		
-		
+		//USER INPUTS
 		System.out.println("Please enter the first number: ");
 		data.setInpt1(INPUT.nextFloat());
 		System.out.println("Please enter the second number: ");
@@ -20,7 +20,7 @@ public class Driver {
 		System.out.println("Enter the opertaion [+, -, *, /]: ");
 		op = INPUT.next();
 		
-		
+		//CALCULATION
 		if (op.equals("+")) {
 			System.out.println("Result: "+cal.add(data));
 				
